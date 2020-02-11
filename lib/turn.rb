@@ -31,6 +31,7 @@ def turn(board)
     move(board, idx)
     display_board(board)
   else
+    puts "Invalid move. Please pick a valid space on the board."
     turn(board)
   end
 end
