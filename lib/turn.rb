@@ -18,3 +18,7 @@ end
 def valid_move?(board, idx)
   !position_taken?(board, idx) && idx.between?(0, 8)
 end
+
+def move
+
+end
